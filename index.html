@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EvaluateU</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Evaluate<span class="highlight">U</span></div>
+    <p class="tagline">Scout. Track. Discover.</p>
+    <div class="nav-buttons">
+      <button>I'm a Coach</button>
+      <button>I'm an Athlete</button>
+    </div>
+  </header>
+
+  <main>
+    <aside class="filters">
+      <h2>Filters</h2>
+      <input type="text" id="searchInput" placeholder="Search by name..." disabled/>
+      <select id="positionFilter" disabled>
+        <option>All Positions</option>
+      </select>
+      <select id="classFilter" disabled>
+        <option>All Classes</option>
+      </select>
+    </aside>
+
+    <section class="content">
+      <div class="athlete-cards" id="athleteContainer"></div>
+    </section>
+  </main>
+
+  <footer>© 2024 EvaluateU. All rights reserved.</footer>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
